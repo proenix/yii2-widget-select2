@@ -7,7 +7,7 @@
  * @version 2.0.9
  */
 
-namespace kartik\select2;
+namespace proenix\select2;
 
 use kartik\base\AssetBundle;
 

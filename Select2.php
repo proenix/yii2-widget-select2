@@ -7,7 +7,7 @@
  * @version 2.0.9
  */
 
-namespace kartik\select2;
+namespace proenix\select2;
 
 use kartik\base\AssetBundle;
 use kartik\base\InputWidget;
@@ -261,7 +261,7 @@ class Select2 extends InputWidget
                 'style' => 'background: transparent;border: none !important;font-size:0;',
                 'onfocus' => '$("#' . $this->options['id'] . '").select2("open");'
             ]);
-        }        
+        }
         echo Html::tag('span', $out, ['id' => 'parent-' . $options['id'], 'style' => 'display:none']);
     }
 
