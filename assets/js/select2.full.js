@@ -6391,9 +6391,10 @@ S2.define('jquery.select2',[
               'The select2(\'' + options + '\') method was called on an ' +
               'element that is not using Select2.'
             );
+          } else {
+            ret = instance[options].apply(instance, args);
           }
 
-          ret = instance[options].apply(instance, args);
         });
 
         // Check if we should be returning `this`
